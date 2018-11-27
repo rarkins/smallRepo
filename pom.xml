@@ -42,14 +42,6 @@
         <system>GitHub Issues</system>
     </issueManagement>
 
-    <developers>
-        <developer>
-            <id>tom.shapiraa</id>
-            <name>Tom Shapiraa</name>
-            <email>tom.shapiraa@whitesourcesoftware.com</email>
-        </developer>
-    </developers>
-
     <dependencies>
         <!-- RAR -->
         <dependency>
