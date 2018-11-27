@@ -120,18 +120,5 @@
                 </configuration>
             </plugin>
         </plugins>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.whitesource</groupId>
-                    <artifactId>whitesource-maven-plugin</artifactId>
-                    <version>3.2.5</version>
-                    <configuration>
-                        <orgToken>${whitesource.orgToken}</orgToken>
-                        <product>File System Agent</product>
-                    </configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
     </build>
 </project>
