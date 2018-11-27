@@ -110,15 +110,6 @@
                 <artifactId>maven-gpg-plugin</artifactId>
                 <version>1.4</version>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.3</version>
-                <configuration>
-                    <arguments>-Dgpg.passphrase=${passed.gpg.passphrase} -Dgpg.homedir=${passed.gpg.homedir}</arguments>
-                    <releaseProfiles>Release</releaseProfiles>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
 </project>
