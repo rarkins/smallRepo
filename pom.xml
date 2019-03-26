@@ -52,18 +52,11 @@
 
     <dependencies>
         <!-- RAR -->
-        <dependency>
-            <groupId>com.github.junrar</groupId>
-            <artifactId>junrar</artifactId>
-            <version>0.7</version>
-        </dependency>
-
-        <!-- RPM -->
-        <dependency>
-            <groupId>org.redline-rpm</groupId>
-            <artifactId>redline</artifactId>
-            <version>1.2.1</version>
-        </dependency>
+         <dependency>
+           <groupId>org.apache.zookeeper</groupId>
+           <artifactId>zookeeper</artifactId>
+           <version>3.4.3</version>
+       </dependency>
     </dependencies>
 
     <build>
